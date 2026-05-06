@@ -4,6 +4,12 @@ server:
 spring:
   application:
     name: eureka-server
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-fast: true
+    bootstrap:
+      enabled: true   # ← this line replaces the need for bootstrap.yml and config loads first
 
 eureka:
   client:

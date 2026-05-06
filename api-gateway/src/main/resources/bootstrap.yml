@@ -1,9 +1,17 @@
+server:
+  port: 8761
+
 spring:
   application:
-    name: api-gateway
-
+    name: eureka-server
   cloud:
     config:
       uri: http://localhost:8888
-      bootstrap:
-        enabled: true
+      fail-fast: true
+    bootstrap:
+      enabled: true   # ← this line replaces the need for bootstrap.yml and config loads first
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
