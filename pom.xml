@@ -23,6 +23,7 @@
         <module>api-gateway</module>
         <module>Services/auth-service</module>
         <module>Services/user-service</module>
+        <module>Services/shipment-service</module>
     </modules>
 
     <properties>
