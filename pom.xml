@@ -24,6 +24,7 @@
         <module>Services/auth-service</module>
         <module>Services/user-service</module>
         <module>Services/shipment-service</module>
+        <module>Services/checkpoint-service</module>
     </modules>
 
     <properties>

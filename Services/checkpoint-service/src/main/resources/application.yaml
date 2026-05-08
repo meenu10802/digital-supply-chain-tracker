@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: checkpoint-service
+
+  config:
+    import: optional:configserver:http://localhost:8888
+
+profiles:
+  active: default
