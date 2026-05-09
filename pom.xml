@@ -26,6 +26,7 @@
         <module>Services/shipment-service</module>
         <module>Services/checkpoint-service</module>
         <module>Services/alert-service</module>
+        <module>services/notification-service</module>
     </modules>
 
     <properties>
